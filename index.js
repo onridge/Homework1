@@ -7,7 +7,7 @@ const server = http.createServer(function (request, response) {
     if (request.url == '/') {
         content = fs.readFileSync('index.html', 'utf-8');
     } else if (request.url == '/style.css') {
-        content = fs.readFileSync('style.html', 'utf-8');
+        content = fs.readFileSync('style.css', 'utf-8');
     }
     response.end(content);
 });
