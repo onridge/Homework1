@@ -1,0 +1,23 @@
+body {
+    background-color: #eeeeee;
+}
+.content{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 200%;
+}
+
+.question, .answer {
+    display: inline-block;
+}
+.question{
+    color: #2482ff;
+}
+.answer{
+    color: #ff921d;
+}
+.title{
+    text-align: center;
+    color: #000000;
+}
